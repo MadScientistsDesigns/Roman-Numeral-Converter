@@ -2,17 +2,6 @@
 
 // User Case 2: All roman numerals answers should be provided in upper-case.
 
-
-
-
-
-
-// function convertToRoman(num) {
-//     return num;
-//    }
-   
-//    convertToRoman(36);
-
 function convertToRoman(num) {
     // get input
     num = document.getElementById("num").value;
@@ -32,9 +21,9 @@ function convertToRoman(num) {
          num -= number;
        }
 
+    // add pop-up with result
        document.getElementById("answer").innerHTML = result;
       });
-    // alert(result);  
   }
 //   end convertToRoman
 
