@@ -19,7 +19,7 @@ body {
 }
 
 .container h1 {
-    color: #333;
+    color: #222;
     text-shadow: 1px 1px #555;
 }
 
@@ -31,7 +31,12 @@ body {
 }
 
 #answer {
-    background: white;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 input {
@@ -49,7 +54,7 @@ button {
     background: #777;
     width: 25%;
     height: 25px;
-    font-weight: bold;
+    font-weight: 900;
     box-shadow: 2px 2px #333;
 }
 
