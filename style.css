@@ -1,0 +1,81 @@
+body {
+    background-image: url(ales-krivec-2859-unsplash15.jpg);
+    background-color: #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background:  rgb(226, 226, 226);
+    opacity: 0.7;
+    border: 2px solid #555;
+    width: 50%;
+    margin: 35px auto 0 auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px #222;
+    border-radius: 7px;
+}
+
+.container h1 {
+    color: #333;
+    text-shadow: 1px 1px #555;
+}
+
+.container p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color: #333;
+}
+
+#answer {
+    background: white;
+}
+
+input {
+    width: 60%;
+    height: 20px;
+    border: 2px solid #777;
+    border-radius: 5px;
+}
+
+input.inset {
+    border-style: inset;
+}
+
+button {
+    background: #777;
+    width: 25%;
+    height: 25px;
+    font-weight: bold;
+    box-shadow: 2px 2px #333;
+}
+
+button:hover {
+    background: #222;
+    color: white;
+}
+
+#photoRef, a {
+    color: #333;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 65vh;
+    margin-left: 25px;
+}
+
+
+/* make responsive to screen width */
+@media screen and (max-width: 768px){
+    .container {
+        width: 80%;
+    }
+
+    #photoRef, a {
+        margin-left: 5%;
+    }
+}
