@@ -34,11 +34,9 @@ function convertToRoman(num) {
 
        document.getElementById("answer").innerHTML = result;
       });
-    // alert(result);
-
-
-    
+    // alert(result);  
   }
+//   end convertToRoman
 
 
   
